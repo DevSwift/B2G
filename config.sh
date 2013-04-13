@@ -69,8 +69,8 @@ case "$1" in
 	repo_sync $1
 	;;
 
-"kumquat")
-	echo DEVICE=kumquat >> .tmp-config &&
+"st25")
+	echo DEVICE=st25 >> .tmp-config &&
 	repo_sync $1
 	;;
 
